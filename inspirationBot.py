@@ -49,6 +49,7 @@ def followBack():
 			if follower.id not in myFriends:
 				follower.follow()
 				print currentTime.strftime("%H:%M:%S") + "~now following", follower.screen_name
+	#### Make this function recursive for continual followbacks, probably make it in sync with each tweet every however many hours.			
 
 
 	#for follower in tweepy.Cursor(api.followers).items(25):
