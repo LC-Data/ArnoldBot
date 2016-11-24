@@ -1,10 +1,4 @@
-import threading
-from threading import Thread
-import tweepy
-import time
-import sys
-from time import sleep
-import datetime
+### A snippet of some Inspirational Arnold code ###
 
 
 argfile = str(sys.argv[1])
